@@ -1,0 +1,19 @@
+# deps & builds
+node_modules
+dist
+dist-ssr
+.vite
+
+# editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# local data
+backend/database/dev_data/*
+data_bak
+
+# env files（只提交 .example）
+frontend/.env.development
+frontend/.env.production
